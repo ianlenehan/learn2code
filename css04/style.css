@@ -1,0 +1,12 @@
+.flex-parent {
+  border: 3px solid blue;
+  height: 500px;
+  width: 500px;
+}
+
+.flex-child {
+  background-color: yellow;
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+}
