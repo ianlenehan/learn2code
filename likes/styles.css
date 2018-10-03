@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  background-color: #ddd;
+  display: flex;
+  padding: 50px;
+}
+
+.left, .right {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 2;
+}
