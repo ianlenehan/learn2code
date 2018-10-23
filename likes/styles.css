@@ -1,18 +1,33 @@
 html, body {
   height: 100%;
+  font-family: 'helvetica';
 }
 
 .container {
   height: 100%;
   background-color: #ddd;
   display: flex;
-  padding: 50px;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #3B5998;
+  color: white;
+  padding: 5px 20px;
+}
+
+.main {
+  padding-left: 10%;
+  padding-right: 10%;
+  flex: 1;
+  display: flex;
 }
 
 .left, .right {
   background-color: white;
   border-radius: 10px;
   margin: 10px;
+  padding: 10px;
 }
 
 .left {
@@ -21,4 +36,15 @@ html, body {
 
 .right {
   flex: 2;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
