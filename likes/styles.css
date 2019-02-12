@@ -48,3 +48,60 @@ nav {
   width: 150px;
   height: 150px;
 }
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h3 {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3B5998;
+  color: white;
+  box-shadow: 5px 5px 5px grey;
+}
+
+button:focus {
+  outline: none;
+}
+
+.card {
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.user-card {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.user-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.user-card span {
+  color: grey;
+}

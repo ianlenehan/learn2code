@@ -18,5 +18,19 @@ const posts = [
 ]
 
 $(document).ready(function () {
-  console.log('ready');
+  $('.add-friend').click(function () {
+    const $friendCountEl = $(this).parent().find('.friend-count')[0]
+    const friendCount = $($friendCountEl).text()
+    console.log(friendCount);
+    const newCount = Number(friendCount) + 1
+    return $($friendCountEl).text(newCount)
+  })
+
+  $('.add-like').click(function () {
+    const $likeCountEl = $(this).parent().find('.like-count')[0]
+    const likeCount = $($likeCountEl).text()
+    console.log(likeCount);
+    const newCount = Number(likeCount) + 1
+    return $($likeCountEl).text(newCount)
+  })
 })
